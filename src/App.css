@@ -1,33 +1,125 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.cover {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cover-photo {
+  width: 100%;
+  height: 50vh;
+  box-shadow: 0px 0px 15px #555;
+  border-radius: 3px;
 }
+
+.basic-info {
+  width: 100%;
+  height: 30vh;
+  margin:15px auto 0 auto;
+  box-shadow: 0px 0px 15px #555;
+  border-radius: 3px;
+}
+
+.profile-image {
+  position: relative;
+}
+
+.profile-image img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -100px;
+  box-shadow: 0px 0px 15px #555;
+  z-index: 9999;
+}
+
+.data{
+  width:32%;
+  height:100%;
+  margin:0 0.666%;
+  float:left;
+  position:relative;
+  margin-bottom:15px;
+}
+
+i{
+  text-align:center;
+  width:30px;
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding:3px;
+  border-radius:3px;
+  box-shadow: 0px 0px 5px #555;
+  margin:3px;
+}
+
+.items{
+  list-style:none;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  margin-bottom:15px;
+}
+
+.contact ul li {  
+ margin-left:20%;
+}
+
+.item{
+  border-bottom:1px solid #555;
+  padding:3px;
+  border-radius:3px;
+  box-shadow:0px 0px 5px #555;
+  margin-top:5px;
+  font-weight:500;
+  width:80%;;
+}
+
+.fullname li{
+  width:100%;
+}
+
+.fullname h3{
+  width:100%;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.fa-linkedin,
+.fa-envelope{
+  transition:all 1s;
+}
+
+.fa-linkedin:hover{
+  color:#0077B5;
+}
+
+.fa-envelope:hover{
+  color:#B23121;
+}
+
+

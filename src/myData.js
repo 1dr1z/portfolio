@@ -17,7 +17,8 @@ export const basicInfo = {
   city: "Drinjaca",
   country: "BiH",
   phoneNo: "+387 62-263-195",
-  email: "idriz.mhm@gmail.com"
+  email: "idriz.mhm@gmail.com",
+  linkedin: "https://ba.linkedin.com/in/mehmedovicidriz"
 };
 
 export const education = [

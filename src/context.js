@@ -1,9 +1,46 @@
 import React, { Component } from "react";
+import {
+  cover,
+  profile,
+  basicInfo,
+  education,
+  workExperience,
+  projects,
+  competitions,
+  langAndTechs,
+  languages,
+  commSkills,
+  managerialSkills
+} from "./myData";
 
-export class dataProvider extends Component {
+const DataContext = React.createContext();
+
+class DataProvider extends Component {
+  //Data
+  state = {
+    cover,
+    profile,
+    basicInfo,
+    education,
+    workExperience,
+    projects,
+    competitions,
+    langAndTechs,
+    languages,
+    commSkills,
+    managerialSkills
+  };
+  //Methods
+
   render() {
-    return <div />;
+    return (
+      <DataContext.Provider value={{ ...this.state }}>
+        {this.props.children}
+      </DataContext.Provider>
+    );
   }
 }
 
-export default dataProvider;
+const DataConsumer = DataContext.Consumer;
+
+export { DataProvider, DataConsumer };
