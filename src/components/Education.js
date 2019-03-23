@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import XPItem from "./XPItem";
 import { DataConsumer } from "../context";
 import SectionTitle from "./SectionTitle";
+import EduItem from "./EduItem";
 
-export class WorkExperience extends Component {
+export class Education extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="container">
-          <SectionTitle>work experience</SectionTitle>
+          <SectionTitle>Education</SectionTitle>
         </div>
         <DataConsumer>
           {value => {
-            return value.workExperience.map(item => {
-              return <XPItem key={item.id} item={item} />;
+            return value.education.map(item => {
+              return <EduItem key={item.id} item={item} />;
             });
           }}
         </DataConsumer>
@@ -22,4 +22,4 @@ export class WorkExperience extends Component {
   }
 }
 
-export default WorkExperience;
+export default Education;

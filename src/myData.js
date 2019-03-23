@@ -28,7 +28,7 @@ export const education = [
     school: "Behram-begova medresa",
     dateRange: "2010-2014",
     description:
-      "Behram-bey's medresa is a educational institution that provides knowledge in various areas: Islamic, natural-mathematical, language, social and multidisciplinary, as well as electoral teaching."
+      "Behram-bey's medresa is a educational institution that provides knowledge in various areas: Islamic, natural-mathematical, linguistic, social and multidisciplinary, as well as electoral teaching."
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ export const workExperience = [
     dateRange: "2018-ongoing",
     description:
       "On December 18th I was elected as Vice President of the NGO “Studentski klub IPI Akademije”. My responsibilities include: Authorization of the President, coordinate and guide the work of individual sections of the Association, planning and coordination of student activities and excursions, developing a thriving environment for all students at the Academy.",
-    link: ""
+    link: " "
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ export const workExperience = [
     dateRange: "2018",
     description:
       "On November 28th and 29th during the BH Engineering Week conference in Tuzla I was volunteering as Technical support.",
-    link: ""
+    link: " "
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ export const workExperience = [
     dateRange: "2015-2016",
     description:
       "Digital Marketing Strategy, SEO optimization, Content Creation/Management.",
-    link: ""
+    link: " "
   },
   {
     id: 4,
@@ -75,7 +75,7 @@ export const workExperience = [
     dateRange: "2015-2016",
     description:
       "As a web application penetration tester, I preferred to use the Kali Linux operating system and its built-in tools. I would like to point out some of them, which are BurpSuite, Wfuzz, WPScan and Metasploit framework",
-    link: ""
+    link: " "
   },
   {
     id: 5,
@@ -84,7 +84,7 @@ export const workExperience = [
     dateRange: "2014-ongoing",
     description:
       "Computer testing, computer analysis, upgrading computer software and hardware, Installing operating systems(Windows, Windows Server, FreeBSD, Linux)",
-    link: ""
+    link: " "
   }
 ];
 
@@ -94,8 +94,9 @@ export const projects = [
     type: "Student Project",
     title: "Student Service Simulator",
     dateRange: "2018",
-    description: "",
-    link: ""
+    description:
+      "Student project on the subject programming. The application was meant to implement functionality of a student service that could keep records of students, professors, subjects etc. The application was developed in C++ programming language, and the files were used as the database.",
+    link: " "
   },
   {
     id: 2,
@@ -122,6 +123,7 @@ export const competitions = [
     id: 1,
     competition: "SBF Start-up Challenge",
     dateRange: "2019",
+    title: "---",
     description:
       "SBF Start-up Challenge is a competition of (university) teams and business ideas evaluated by an expert jury. It is a competition of knowledge through which efforts to popularize entrepreneurship and promote positive values. The purpose of the SBF Start-up Challenge project is to raise awareness about the importance of entrepreneurship and motivate young people in Bosnia and Herzegovina to engage in entrepreneurial activites.",
     link: "https://www.youtube.com/watch?v=LLWi0iycpPs"
@@ -130,6 +132,7 @@ export const competitions = [
     id: 2,
     competition: "MOL FRESHHH",
     dateRange: "2018",
+    title: "---",
     description:
       "The competition started on November 21st and lasted for 10 days. Freshhh is an online international student competition, where students in teams of 3 members have to take over the management of an integrated oil corporation. Make decisions on field development projects, build refinery for different products and find the best product portfolio, and set strategy on gas station network where aim is to make profit by expanding, investment network portfolio.",
     link: "https://freshhh.net/"
@@ -228,7 +231,7 @@ export const langAndTechs = [
     img: "img/vmware.png"
   },
   {
-    id: 18,
+    id: 19,
     alt: "PS",
     img: "img/ps.png"
   }
@@ -236,7 +239,15 @@ export const langAndTechs = [
 
 export const languages = [
   {
-    id: 1,
+    id: 11,
+    language: "Bosnian",
+    understanding: "Mother Tongue",
+    speaking: "Mother Tongue",
+    writing: "Mother Tongue"
+  },
+  {
+    id: 2,
+    language: "English",
     understanding: "B2",
     speaking: "B2",
     writing: "B2"
@@ -244,15 +255,47 @@ export const languages = [
 ];
 
 export const commSkills = [
-  "Goal oriented professional with excellent interpersonal and communication skills",
-  "Self-starter, able to work well with minimal directions",
-  "Interact supportively within a team environment",
-  "Maintain excellent written and oral communication skills, problem resolution abilities, and a high level of confidentiality"
+  {
+    id: 1,
+    desc:
+      "Goal oriented professional with excellent interpersonal and communication skills"
+  },
+  {
+    id: 2,
+    desc: "Self-starter, able to work well with minimal directions"
+  },
+  {
+    id: 3,
+    desc:
+      "Goal oriented professional with excellent interpersonal and communication skills"
+  },
+  {
+    id: 4,
+    desc: "Interact supportively within a team environment"
+  },
+  {
+    id: 5,
+    desc:
+      "Maintain excellent written and oral communication skills, problem resolution abilities, and a high level of confidentiality"
+  }
 ];
 
 export const managerialSkills = [
-  "Highly organized, accomplish assigned tasks in an efficient manner",
-  "Work well under pressure within a fast-paced environment",
-  "Fast learner, can grasp and apply new procedures quickly",
-  "Young, honest, organized, conscientious, independent, hard-working, friendly, confident, polite, responsible, goal-oriented, energetic, willing to learn."
+  {
+    id: 1,
+    desc: "Highly organized, accomplish assigned tasks in an efficient manner"
+  },
+  {
+    id: 2,
+    desc: "Work well under pressure within a fast-paced environment"
+  },
+  {
+    id: 3,
+    desc: "Fast learner, can grasp and apply new procedures quickly"
+  },
+  {
+    id: 4,
+    desc:
+      "Young, honest, organized, conscientious, independent, hard-working, friendly, confident, polite, responsible, goal-oriented, energetic, willing to learn."
+  }
 ];

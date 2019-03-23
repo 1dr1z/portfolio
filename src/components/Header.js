@@ -52,14 +52,25 @@ export class Header extends Component {
                           {basicInfo.phoneNo}
                         </li>
                         <li className="item">
-                          <a href={"mailto:" + basicInfo.email}>
+                          <a
+                            href={"mailto:" + basicInfo.email}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mail-ico"
+                          >
                             <i className="fas fa-envelope" />
                             {basicInfo.email}
                           </a>
                         </li>
                         <li className="item">
-                          <a href={basicInfo.linkedin}>
-                            <i class="fab fa-linkedin" />Idriz Mehmedovic
+                          <a
+                            href={basicInfo.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="in-ico"
+                          >
+                            <i className="fab fa-linkedin" />
+                            Idriz Mehmedovic
                           </a>
                         </li>
                       </ul>
