@@ -114,7 +114,7 @@ export const projects = [
     dateRange: "2017",
     description:
       "Guided by the desire to improve my knowledge in the development of web applications, I started learning PHP. Through the tutorial I created a content management system for the blog. The technologies I used for the frontend were HTML, CSS (Bootstrap), and for backend PHP and MySQL.",
-    link: "http://nkjedinstvoljubnici.ba/"
+    link: " "
   }
 ];
 
@@ -297,5 +297,34 @@ export const managerialSkills = [
     id: 4,
     desc:
       "Young, honest, organized, conscientious, independent, hard-working, friendly, confident, polite, responsible, goal-oriented, energetic, willing to learn."
+  }
+];
+
+export const footer = [
+  {
+    id: 1,
+    network: "https://ba.linkedin.com/in/mehmedovicidriz",
+    icon: "fab fa-linkedin in-ico"
+  },
+  {
+    id: 2,
+    network: "idriz.mhm@gmail.com",
+    icon: "fas fa-envelope mail-ico"
+  },
+  {
+    id: 3,
+    network: "https://github.com/1dr1z",
+    icon: "fab fa-github git-ico"
+  }
+];
+
+export const gitLinks = [
+  {
+    id: 1,
+    link: "https://api.github.com/users/1dr1z"
+  },
+  {
+    id: 2,
+    link: "https://api.github.com/users/1dr1z/repos"
   }
 ];

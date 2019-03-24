@@ -42,8 +42,8 @@ export class PersonalSkills extends Component {
               }}
             </DataConsumer>
             </ul>
+            </div>
           </div>
-        </div>
       </React.Fragment>
     );
   }

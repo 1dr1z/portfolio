@@ -8,6 +8,7 @@ import Competitions from "./components/Competitions";
 import LangAndTech from "./components/LangAndTech";
 import PersonalSkills from "./components/PersonalSkills";
 import GitApi from "./components/GitApi";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <LangAndTech />
         <PersonalSkills />
         <GitApi />
+        <Footer />
       </React.Fragment>
     );
   }

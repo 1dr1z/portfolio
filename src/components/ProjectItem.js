@@ -14,6 +14,7 @@ export class ProjectItem extends Component {
                   title
                 ) : (
                   <a href={link} target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-external-link-alt" />
                     {title}
                   </a>
                 )}

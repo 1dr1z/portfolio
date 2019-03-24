@@ -112,8 +112,13 @@ a {
 }
 
 .mail-ico,
-.in-ico {
+.in-ico,
+.git-ico {
   transition: all 1s;
+}
+
+.git-ico:hover{
+  color:#000;
 }
 
 .in-ico:hover {
@@ -233,16 +238,19 @@ tbody {
 
 .personal-half {
   width: 45%;
-  margin: 5px 2.5% 5px 2.5%;
+  margin: 5px 2.5%;
   float:left;
+  border-radius:3px;
   box-shadow: 0 0 10px #555;
 }
 
 .clearfix{
-  display:table;
+  display:flex;
   content:"";
-  clear:both;        
+  clear:both;  
+  justify-content:center;
 }
+
 
 .personal-half h1 {
   font-weight: 500;
@@ -270,3 +278,99 @@ tbody {
   font-weight: 400;
   font-size: 70%;
 }
+
+/* FOOTER */
+
+footer{
+  background:#555;
+  margin-top:15px;
+  height:150px;
+  overflow-y:hidden;
+  color:#fff;
+}
+
+.footer-style{
+  width:100%;
+  height:100%;
+  text-align:center;
+  padding:5px;
+  line-height:100%;
+  vertical-align:middle;
+}
+
+.footer-style ul{
+  list-style:none;
+}
+
+.footer-style ul li{
+  display:inline-block;
+  font-size:200%;
+  margin:10px;
+  padding:5px;
+}
+
+.footer-style ul li a{
+  color:#fff;
+}
+
+/* GITHUB */
+
+.git-profile{
+  width:25%;
+  margin:15px 1%;
+  padding:5px;
+  border-radius:3px;
+  text-align:center;
+  float:left;
+}
+
+.git-data{
+  width:100%;
+  margin-top:50%;
+}
+
+.git-profile-img{
+  width: 80%;
+  height:220px;
+  margin:10px;
+  border-radius:3px;
+  box-shadow: 0 0 8px #555;
+
+}
+
+.git-username,
+.git-numbers{
+  width:80%;
+  padding:5px;
+  margin:5px 10%;
+  text-align:center;
+  font-weight:600;
+  box-shadow: 0 0 8px #555;
+}
+
+.git-numbers p{
+  display:inline-block;
+
+}
+
+.git-repos{
+ display:inline-block;
+ width:70%;
+ margin:10px 1.5%;
+}
+
+.git-repos ul{
+  list-style:none;
+}
+
+.git-repos li{
+  width:80%;
+  margin-left:10%;
+  box-shadow: 0 0 10px #555;
+  margin: 7px 10%;
+  padding:5px;
+  padding-left:30%;
+}
+
+
+
