@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const SectionTitle = styled.div`
   width: 100%;
+  line-height:30px;
   text-transform: uppercase;
-  text-size: 24px;
   font-weight: 900;
   background-color: #208ecd;
   border-radius: 3px;
