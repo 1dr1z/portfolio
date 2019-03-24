@@ -7,7 +7,7 @@ export class ProjectItem extends Component {
       <React.Fragment>
         <div className="container">
           <div className="item-card">
-            <div className="title-row">
+            <div className="title-row clearfix small">
               <p className="col-3">{type}</p>
               <p className="col-3">
                 {link === " " ? (

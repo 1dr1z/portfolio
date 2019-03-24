@@ -325,6 +325,6 @@ export const gitLinks = [
   },
   {
     id: 2,
-    link: "https://api.github.com/users/1dr1z/repos"
+    link: "https://api.github.com/users/1dr1z/repos?per_page=10"
   }
 ];

@@ -6,7 +6,7 @@ export class EduItem extends Component {
     return (
       <div className="container">
         <div className="item-card">
-          <div className="title-row">
+          <div className="title-row clearfix">
             <p className="col-3">{city}</p>
             <p className="col-3">{school}</p>
             <p className="col-3">{dateRange}</p>

@@ -10,7 +10,7 @@ export class GitApi extends Component {
         <div className="container">
           <SectionTitle>GitHub Projects</SectionTitle>
         </div>
-        <div className="container clearfix">
+        <div className="container personal">
           <GitProfile />
           <div className="git-repos">
             <ul>
@@ -22,8 +22,9 @@ export class GitApi extends Component {
                           href={item.html_url}
                           target="_blank"
                           rel="noopener noreferrer"
+                          key={item.id}
                         >
-                      <li key={item.id}>
+                      <li >
                         <i className="fas fa-chevron-circle-right"></i>
                           {item.name} 
                       </li>

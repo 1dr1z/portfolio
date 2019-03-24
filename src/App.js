@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./query.css";
 import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education";

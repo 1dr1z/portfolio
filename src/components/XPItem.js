@@ -12,7 +12,7 @@ export class XPItem extends Component {
     return (
       <div className="container">
         <div className="item-card">
-          <div className="title-row">
+          <div className="title-row clearfix">
             <p className="col-3">{position}</p>
             <p className="col-3">
               {link === " " ? (

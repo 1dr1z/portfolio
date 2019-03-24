@@ -18,7 +18,7 @@ export class PersonalSkills extends Component {
             });
           }}
         </DataConsumer>
-        <div className="container clearfix">
+        <div className="container personal">
           <div className="personal-half">
             <h1>Communications Skills</h1>
             <ul className="personal-list">

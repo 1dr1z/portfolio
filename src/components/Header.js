@@ -22,7 +22,7 @@ export class Header extends Component {
                     <img src={profile.img} alt={profile.title} />
                   </div>
                   <div className="basic-info">
-                    <div className="data region">
+                    <div className="data region ">
                       <ul className="items">
                         <li className="item">
                           <i className="fas fa-map-marker-alt" />
@@ -70,7 +70,7 @@ export class Header extends Component {
                             className="in-ico"
                           >
                             <i className="fab fa-linkedin" />
-                            Idriz Mehmedovic
+                            {process.env.REACT_APP_DEVELOPER_ID}
                           </a>
                         </li>
                       </ul>

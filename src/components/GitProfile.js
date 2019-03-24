@@ -26,7 +26,7 @@ export class GitProfile extends Component {
                       <p>Repositories: {gitData.public_repos}</p>
                     </div>
                   </a>
-                 </div>
+                </div>
               );
             }}
           </DataConsumer>
