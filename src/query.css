@@ -23,7 +23,7 @@
 /* SMALL TABLET TO BIG TABLET: 767px TO 1023px */
 /* ----------------------------------------------- */
 
-@media (max-width:1023px){
+@media (max-width:1123px){
     .container{
         width:950px;
         margin:0 auto;
@@ -72,7 +72,7 @@
 /* SMALL PHONES TO SMALL TABLETS: 481px TO 767px */
 /* ----------------------------------------------- */
 
-@media(max-width:950px){
+@media(max-width:976px){
     .container{
         width:767px;
         margin: 0 auto;
@@ -194,7 +194,7 @@
 /* SMALL PHONES: 0px TO 480px */
 /* ----------------------------------------------- */
 
-@media (max-width:767px){
+@media (max-width:790px){
    .container{
        width:480px;
        margin:0 auto;
@@ -374,7 +374,7 @@
 
 }
 
-@media (max-width:480px){
+@media (max-width:497px){
    .container{
        width:390px;
        margin:0 auto;
