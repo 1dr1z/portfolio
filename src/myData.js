@@ -90,6 +90,14 @@ export const workExperience = [
 
 export const projects = [
   {
+    id: 4,
+    type: "React App",
+    title: "Adis Alic Photography",
+    dateRange: "2019",
+    description: "Photo gallery application for photographers",
+    link: "https://adisalic.netlify.com/"
+  },
+  {
     id: 1,
     type: "Student Project",
     title: "Student Service Simulator",
