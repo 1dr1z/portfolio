@@ -98,6 +98,14 @@ export const projects = [
     link: "https://adisalic.netlify.com/"
   },
   {
+    id: 5,
+    type: "Website",
+    title: "Lux-Trade d.o.o",
+    dateRange: "2019",
+    description: "Website for construction company",
+    link: "http://lux-trade.ba/"
+  },
+  {
     id: 1,
     type: "Student Project",
     title: "Student Service Simulator",
