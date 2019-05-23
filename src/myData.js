@@ -106,15 +106,6 @@ export const projects = [
     link: "http://lux-trade.ba/"
   },
   {
-    id: 1,
-    type: "Student Project",
-    title: "Student Service Simulator",
-    dateRange: "2018",
-    description:
-      "Student project on the subject programming. The application was meant to implement functionality of a student service that could keep records of students, professors, subjects etc. The application was developed in C++ programming language, and the files were used as the database.",
-    link: " "
-  },
-  {
     id: 2,
     type: "Wordpress Website",
     title: "NK Jedinstvo Ljubnici Ilijas",
@@ -129,7 +120,7 @@ export const projects = [
     title: "---",
     dateRange: "2017",
     description:
-      "Guided by the desire to improve my knowledge in the development of web applications, I started learning PHP. Through the tutorial I created a content management system for the blog. The technologies I used for the frontend were HTML, CSS (Bootstrap), and for backend PHP and MySQL.",
+      "Guided by the desire to improve my knowledge in the development of web applications, I started learning PHP. Through the tutorial I created a content management system for blog. The technologies I used for the frontend were HTML, CSS (Bootstrap), and for backend PHP and MySQL.",
     link: " "
   }
 ];
@@ -156,6 +147,22 @@ export const competitions = [
 ];
 
 export const langAndTechs = [
+  //LAST ID 21
+  {
+    id: 20,
+    alt: "Spring",
+    img: "img/spring.png"
+  },
+  {
+    id: 4,
+    alt: "JAVA",
+    img: "img/java.png"
+  },
+  {
+    id: 11,
+    alt: "MYSQL",
+    img: "img/mysql.png"
+  },
   {
     id: 9,
     alt: "REACT",
@@ -175,11 +182,6 @@ export const langAndTechs = [
     id: 3,
     alt: "JS",
     img: "img/js.png"
-  },
-  {
-    id: 4,
-    alt: "JAVA",
-    img: "img/java.png"
   },
   {
     id: 5,
@@ -207,11 +209,6 @@ export const langAndTechs = [
     img: "img/winsrvr.png"
   },
   {
-    id: 11,
-    alt: "MYSQL",
-    img: "img/mysql.png"
-  },
-  {
     id: 12,
     alt: "MSVISUALSTUDIO",
     img: "img/vs.png"
@@ -235,6 +232,11 @@ export const langAndTechs = [
     id: 16,
     alt: "ATOM",
     img: "img/atom.png"
+  },
+  {
+    id: 21,
+    alt: "INTELLIJ",
+    img: "img/intelliJ.png"
   },
   {
     id: 17,
