@@ -111,7 +111,7 @@ export const projects = [
     title: "NK Jedinstvo Ljubnici Ilijas",
     dateRange: "2017",
     description:
-      "A project that lasted two months. My responsibilities were to create a website for the mentioned club, perform all necessary hosting settings, backup, mail server etc.",
+      "The project that lasted two months. My responsibilities were to create a website for the mentioned club, perform all necessary hosting settings, backup, mail server etc.",
     link: "http://nkjedinstvoljubnici.ba/"
   },
   {
