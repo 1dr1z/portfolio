@@ -42,10 +42,19 @@ export const education = [
 
 export const workExperience = [
   {
+    id: 6,
+    position: "Junior Developer",
+    organization: 'ABC TECH GROUP',
+    dateRange: "2019-ongoing",
+    description:
+      "Frontend developer",
+    link: "https://www.abc-techgroup.com/"
+  },
+  {
     id: 1,
     position: "Vice President",
     organization: 'NGO "Studentski Klub IPI Akademije"',
-    dateRange: "2018-ongoing",
+    dateRange: "2018-2019",
     description:
       "On December 18th I was elected as Vice President of the NGO “Studentski klub IPI Akademije”. My responsibilities include: Authorization of the President, coordinate and guide the work of individual sections of the Association, planning and coordination of student activities and excursions, developing a thriving environment for all students at the Academy.",
     link: " "
@@ -81,7 +90,7 @@ export const workExperience = [
     id: 5,
     position: "Maintenance of Computers",
     organization: "---",
-    dateRange: "2014-ongoing",
+    dateRange: "2014-2018",
     description:
       "Computer testing, computer analysis, upgrading computer software and hardware, Installing operating systems(Windows, Windows Server, FreeBSD, Linux)",
     link: " "
